@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="Tailwind.css" />
+    </head>
+    <body class="bg-slate-200 p-10">
+        <main
+            class="border border-black h-[100vh] w-[90vw] p-3 flex flex-col gap-5 place-items-center">
+            <div
+                class="border border-blue-500 bg-blue-500 shadow-xl rounded-lg p-7 text-center font-Warp text-2xl w-full">
+                PRUEBA DE CORS
+            </div>
+            <button
+                onclick="API()"
+                class="font-bold text-lg rounded-xl shadow-2xl font-Fredoka p-4 bg-red-600">
+                Realizar Peticion a la API
+            </button>
+        </main>
+        <script>
+            function API() {
+                fetch("http://localhost:1234")
+                    .then((response) => response.json())
+                    .then((data) => console.log(data))
+                    .catch((error) => console.error("Error:", error));
+            }
+        </script>
+    </body>
+</html>

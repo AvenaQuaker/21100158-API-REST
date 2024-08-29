@@ -1,7 +1,9 @@
+//Importes
 import express from "express";
 import { miCors } from "./Middlewares/Cors.js";
 import { crearRouter } from "./Routes/Routes.js";
 
+//Configuracion
 const app = express();
 app.use(miCors());
 

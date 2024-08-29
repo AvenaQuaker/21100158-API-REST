@@ -6,7 +6,7 @@
         <title>Document</title>
         <link rel="stylesheet" href="Tailwind.css" />
     </head>
-    <body class="bg-slate-200 p-10">
+    <body class="bg-gray-800 p-10">
         <main
             class="border border-black h-[100vh] w-[90vw] p-3 flex flex-col gap-5 place-items-center">
             <div
@@ -21,7 +21,7 @@
         </main>
         <script>
             function API() {
-                fetch("http://localhost:1234")
+                fetch("http://127.0.0.1:1234")
                     .then((response) => response.json())
                     .then((data) => console.log(data))
                     .catch((error) => console.error("Error:", error));

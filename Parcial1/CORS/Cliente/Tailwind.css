@@ -562,37 +562,12 @@ video {
   display: flex;
 }
 
-.h-3\/4{
-  height: 75%;
-}
-
 .h-\[100vh\]{
   height: 100vh;
 }
 
-.w-3\/4{
-  width: 75%;
-}
-
-.w-\[80vh\]{
-  width: 80vh;
-}
-
-.w-\[80vw\]{
-  width: 80vw;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
-}
-
 .w-\[90vw\]{
   width: 90vw;
-}
-
-.w-max{
-  width: -moz-max-content;
-  width: max-content;
 }
 
 .w-full{
@@ -628,24 +603,9 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-blue-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(37 99 235 / var(--tw-border-opacity));
-}
-
 .border-blue-500{
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
-}
-
-.bg-slate-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-blue-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
 .bg-blue-500{
@@ -653,9 +613,9 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-.bg-red-700{
+.bg-gray-800{
   --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .bg-red-600{
@@ -663,22 +623,23 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
-.bg-gray-600{
+.bg-blue-600{
   --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
-.bg-gray-800{
+.bg-green-600{
   --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .p-10{
   padding: 2.5rem;
-}
-
-.p-5{
-  padding: 1.25rem;
 }
 
 .p-3{
@@ -689,10 +650,6 @@ video {
   padding: 1rem;
 }
 
-.p-6{
-  padding: 1.5rem;
-}
-
 .p-7{
   padding: 1.75rem;
 }
@@ -701,27 +658,12 @@ video {
   text-align: center;
 }
 
-.font-Warp{
-  font-family: Tilt Warp, sans-serif;
-}
-
 .font-Fredoka{
   font-family: Fredoka, sans-serif;
 }
 
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.font-Warp{
+  font-family: Tilt Warp, sans-serif;
 }
 
 .text-2xl{
@@ -729,14 +671,13 @@ video {
   line-height: 2rem;
 }
 
-.font-bold{
-  font-weight: 700;
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
-.shadow{
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.font-bold{
+  font-weight: 700;
 }
 
 .shadow-2xl{

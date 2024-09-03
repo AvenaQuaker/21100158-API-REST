@@ -13,6 +13,22 @@
                 class="border border-blue-500 bg-blue-500 shadow-xl rounded-lg p-7 text-center font-Warp text-2xl w-full">
                 PRUEBA DE CORS
             </div>
+
+            <form
+                target="resultado"
+                method="GET"
+                action="http://127.0.0.1:1234">
+                <button
+                    class="font-bold text-lg rounded-xl shadow-2xl font-Fredoka p-4 bg-green-600"
+                    type="submit">
+                    PeticionFORM
+                </button>
+            </form>
+
+            <iframe
+                class="bg-black rounded-xl font-Fredoka"
+                name="resultado"></iframe>
+
             <button
                 onclick="API()"
                 class="font-bold text-lg rounded-xl shadow-2xl font-Fredoka p-4 bg-red-600">

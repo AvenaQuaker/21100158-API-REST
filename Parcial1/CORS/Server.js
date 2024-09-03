@@ -10,8 +10,6 @@ app.use(miCors());
 //Rutas;
 app.use("/", crearRouter());
 
-//Escuchando el puerto
-
 const PORT = process.env.PORT ?? 1234;
 
 app.listen(PORT, () => {

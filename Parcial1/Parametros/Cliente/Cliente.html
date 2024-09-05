@@ -104,13 +104,34 @@
                     data[key] = value;
                 }
 
-                fetch("http://127.0.0.1:1234/Ver", {
+                fetch("http://127.0.0.1:1234/VerBody", {
                     method: "POST",
                     body: JSON.stringify(data),
                     headers: {
                         "Content-Type": "application/json",
                     },
                 })
+                    .then((response) => response.json())
+                    .then((data) => console.log(data))
+                    .catch((error) => console.error("Error:", error));
+
+                const id = 714;
+                fetch(`http://127.0.0.1:1234/VerParam/${id}`, {
+                    method: "POST",
+                })
+                    .then((response) => response.json())
+                    .then((data) => console.log(data))
+                    .catch((error) => console.error("Error:", error));
+
+                const nombre = "Jaime";
+                const apellido = "Aquino";
+
+                fetch(
+                    `http://127.0.0.1:1234/VerQuery?nombre=${nombre}&apellido=${apellido}`,
+                    {
+                        method: "POST",
+                    }
+                )
                     .then((response) => response.json())
                     .then((data) => console.log(data))
                     .catch((error) => console.error("Error:", error));

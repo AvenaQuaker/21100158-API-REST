@@ -8,7 +8,7 @@
     </head>
     <body class="bg-gray-800 p-10">
         <main
-            class="border border-black h-[100vh] w-[90vw] p-3 flex flex-col gap-5 place-items-center">
+            class="border border-black h-max w-[90vw] p-3 flex flex-col gap-5 place-items-center">
             <div
                 class="border border-blue-500 bg-blue-500 shadow-xl rounded-lg p-7 text-center font-Warp text-2xl w-full">
                 PRUEBA DE CORS
@@ -83,59 +83,59 @@
                     POS MANDARLO
                 </button>
             </form>
+            <form
+                id="forma2"
+                method="post"
+                enctype="multipart/form-data"
+                class="shadow rounded-2xl place-items-center gap-3 bg-slate-400 px-9 py-3 flex flex-col">
+                <label for="titulo" class="font-Warp text-2xl"
+                    >Contactanos</label
+                >
+                <section class="flex flex-row font-Fredoka gap-5">
+                    <div class="w-60 h-60 object-fill">
+                        <img
+                            class="w-full h-full rounded-3xl"
+                            src="https://storage.googleapis.com/web-laive-storage/Media/pages/img_contactanos.jpg"
+                            alt="No" />
+                    </div>
+                    <section class="flex flex-col gap-3">
+                        <input
+                            type="text"
+                            class="rounded-lg bg-slate-200 text-center"
+                            placeholder="Correo" />
+                        <input
+                            type="text"
+                            class="rounded-lg bg-slate-200 text-center"
+                            placeholder="Destinatario" />
+                        <textarea
+                            name="desc"
+                            id="desc"
+                            class="w-80 h-40 rounded-lg bg-slate-200 text-center"
+                            placeholder="Mensaje"></textarea>
+                    </section>
+                </section>
+                <section class="gap-5 font-Fredoka flex flex-row">
+                    <input
+                        type="file"
+                        name="archivo"
+                        class="font-semibold rounded-xl bg-blue-500 p-5" />
+
+                    <button
+                        id="btn"
+                        type="submit"
+                        class="font-semibold rounded-xl bg-green-500 p-5">
+                        Enviar
+                    </button>
+                </section>
+            </form>
+
+            <button
+                onclick="SolicitarImagen()"
+                class="font-bold text-lg rounded-xl shadow-2xl font-Fredoka p-4 bg-red-600">
+                Solicitar Imagen
+            </button>
+            <img id="imagen" alt="imagenSolicitada" />
         </main>
-        <script>
-            const forma = document.getElementById("forma");
-
-            function API() {
-                fetch("http://127.0.0.1:1234")
-                    .then((response) => response.json())
-                    .then((data) => console.log(data))
-                    .catch((error) => console.error("Error:", error));
-            }
-
-            forma.addEventListener("submit", (event) => {
-                event.preventDefault();
-
-                const formData = new FormData(forma);
-                const data = {};
-
-                for (let [key, value] of formData.entries()) {
-                    data[key] = value;
-                }
-
-                fetch("http://127.0.0.1:1234/PARAM/Body", {
-                    method: "POST",
-                    body: JSON.stringify(data),
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                })
-                    .then((response) => response.json())
-                    .then((data) => console.log(data))
-                    .catch((error) => console.error("Error:", error));
-
-                const id = 714;
-                fetch(`http://127.0.0.1:1234/PARAM/Param/${id}`, {
-                    method: "POST",
-                })
-                    .then((response) => response.json())
-                    .then((data) => console.log(data))
-                    .catch((error) => console.error("Error:", error));
-
-                const nombre = "Jaime";
-                const apellido = "Aquino";
-
-                fetch(
-                    `http://127.0.0.1:1234/PARAM/Query?nombre=${nombre}&apellido=${apellido}`,
-                    {
-                        method: "POST",
-                    }
-                )
-                    .then((response) => response.json())
-                    .then((data) => console.log(data))
-                    .catch((error) => console.error("Error:", error));
-            });
-        </script>
+        <script src="Cliente.js"></script>
     </body>
 </html>

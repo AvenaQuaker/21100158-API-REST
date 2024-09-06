@@ -11,7 +11,7 @@ export const crearRouter = () => {
     return nuevoRouter;
 };
 
-export const crearRouterVER = () => {
+export const crearRouterPARAM = () => {
     const nuevoRouter = new Router();
 
     nuevoRouter.post("/Body", Verificacion, (req, res) => {
@@ -37,16 +37,4 @@ export const crearRouterVER = () => {
     });
 
     return nuevoRouter;
-};
-
-export const crearRouterARCH = () => {
-    const nuevoRouter = new Router();
-
-    nuevoRouter.get("/RecibirArchivo", (req, res) => {
-        return res.json({ mensaje: "Recibir Archivo" });
-    });
-
-    nuevoRouter.post("/LeerArchivo", (req, res) => {
-        return res.json({ mensaje: "Recibir Archivo" });
-    });
 };

@@ -2,11 +2,13 @@
 import express from "express";
 import { miCors } from "./Middlewares/Cors.js";
 import { crearRouter } from "./Routes/Routes.js";
+import { E500, E404 } from "./Middlewares/Errores.js";
 
 //Configuracion
 const app = express();
-app.use(miCors());
 app.use(express.json());
+app.use(miCors());
+app.use(E500, E404);
 
 //Rutas;
 app.use("/", crearRouter());

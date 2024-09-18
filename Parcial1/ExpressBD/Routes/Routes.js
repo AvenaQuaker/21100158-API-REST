@@ -12,6 +12,7 @@ export const crearRouter = () => {
     nuevoRouter.get("/movies/:id", movieController.Buscar);
     nuevoRouter.post("/movies/", movieController.Agregar);
     nuevoRouter.delete("/movies/:id", movieController.Borrar);
+    nuevoRouter.patch("/movies/", movieController.Actualizar);
 
     return nuevoRouter;
 };

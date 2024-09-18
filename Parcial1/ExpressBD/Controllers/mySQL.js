@@ -116,4 +116,32 @@ export class MovieController {
 
         return res.json({ message: "Movie Deleted" });
     };
+
+    Actualizar = async (req, res) => {
+        const id = req.body.id;
+
+        let query = `UPDATE movie SET `;
+        const updates = [];
+        const values = [];
+
+        for (const [key, value] of Object.entries(req.body)) {
+            if (key != "id") {
+                updates.push(`${key} = ? `);
+                values.push(value);
+            }
+        }
+
+        query += updates.join(`, `);
+        query += `WHERE id = UUID_TO_BIN(?);`;
+        values.push(id);
+
+        console.log(req.body);
+        console.log(query);
+
+        const [Resultado] = await connection.query(query, values);
+        if (Resultado.affectedRows > 0) {
+            return res.json({ respuesta: "TERRIBLE LO QUE PASO" });
+        }
+        return res.json({ respuesta: "PASO ALGO MALO" });
+    };
 }

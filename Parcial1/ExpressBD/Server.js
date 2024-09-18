@@ -8,7 +8,7 @@ import { E500, E404 } from "./Middlewares/Errores.js";
 const app = express();
 app.use(express.json());
 app.use(miCors());
-app.use(E500, E404);
+//app.use(E500, E404);
 
 //Rutas;
 app.use("/", crearRouter());

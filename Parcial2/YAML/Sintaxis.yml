@@ -1,0 +1,17 @@
+---
+Objeto:
+    ID: XPM1920
+    Nombre: Apellido
+    Apellido: Perez
+    Nacimiento: 1980-05-20
+    Direccion:
+        Calle: Calle 123
+        Numero: 456
+        Colonia: Colonia 789
+        Ciudad: Ciudad 123
+        Estado: Estado 456
+        Pais: Pais 789
+        CodigoPostal: 12345
+        Latitud: 19.20
+        Longitud: -98.30
+        Altitud: 500m

@@ -13,13 +13,13 @@ app.use(express.json());
 app.use(miCors());
 
 // Configuración de la sesión
-// app.use(
-//     session({
-//         secret: "secret",
-//         resave: false, // Cambiar a false para no reescribir sesiones si no hay cambios
-//         saveUninitialized: false, // Evitar guardar sesiones vacías
-//     })
-// );
+app.use(
+    session({
+        secret: "secret",
+        resave: false, // Cambiar a false para no reescribir sesiones si no hay cambios
+        saveUninitialized: false, // Evitar guardar sesiones vacías
+    })
+);
 
 // Inicialización de Passport
 app.use(passport.initialize());

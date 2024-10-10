@@ -1,0 +1,36 @@
+{
+  "coverage": "0%",
+  "expectCount": 5,
+  "actualCount": 0,
+  "files": {
+    "Middlewares/Cors.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "Middlewares/Errores.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        9
+      ]
+    },
+    "Middlewares/Logger.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "Middlewares/Verificacion.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    }
+  }
+}

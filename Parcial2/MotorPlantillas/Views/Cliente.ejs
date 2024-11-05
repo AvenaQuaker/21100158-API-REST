@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="Tailwind.css" />
+    </head>
+    <body class="bg-gray-800 p-10">
+        <main
+            class="border border-black h-max w-[90vw] p-3 flex flex-col gap-5 place-items-center">
+            <div
+                class="border border-blue-500 bg-blue-500 shadow-xl rounded-lg p-7 text-center font-Warp text-2xl w-full">
+                PLANTIJAS EJS
+            </div>
+            <h1><strong>DATOS DE LA PERSONA</strong></h1>
+            <ul>
+                <li><strong>Nombre:</strong> <%= objeto.nombre %></li>
+                <li><strong>Apellido:</strong> <%= objeto.apellido %></li>
+                <li><strong>Edad:</strong> <%= objeto.edad %></li>
+                <li><strong>Teléfono:</strong> <%= objeto.telefono %></li>
+                <li><strong>Correo:</strong> <%= objeto.correo %></li>
+                <li><strong>Dirección:</strong></li>
+                <ul>
+                    <li>
+                        <strong>Calle:</strong> <%= objeto.direccion.calle %>
+                    </li>
+                    <li>
+                        <strong>Colonia:</strong> <%= objeto.direccion.colonia
+                        %>
+                    </li>
+                    <li>
+                        <strong>Número:</strong> <%= objeto.direccion.numero %>
+                    </li>
+                </ul>
+            </ul>
+        </main>
+        <script src="Cliente.js"></script>
+    </body>
+</html>

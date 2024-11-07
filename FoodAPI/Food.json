@@ -1,0 +1,678 @@
+[
+    {
+        "ID de la Comida": 1,
+        "Nombre": "Tacos al Pastor",
+        "Origen": "México",
+        "Ingredientes": [
+            "Tortilla de maíz",
+            "Carne de cerdo marinada",
+            "Piña",
+            "Cilantro",
+            "Cebolla",
+            "Salsa"
+        ],
+        "Imagen": "https://example.com/images/tacos_al_pastor.jpg"
+    },
+    {
+        "ID de la Comida": 2,
+        "Nombre": "Sushi",
+        "Origen": "Japón",
+        "Ingredientes": [
+            "Arroz",
+            "Alga nori",
+            "Pescado crudo",
+            "Aguacate",
+            "Pepino",
+            "Salsa de soya",
+            "Wasabi"
+        ],
+        "Imagen": "https://example.com/images/sushi.jpg"
+    },
+    {
+        "ID de la Comida": 3,
+        "Nombre": "Pizza Margherita",
+        "Origen": "Italia",
+        "Ingredientes": [
+            "Masa de pizza",
+            "Salsa de tomate",
+            "Queso mozzarella",
+            "Albahaca",
+            "Aceite de oliva"
+        ],
+        "Imagen": "https://example.com/images/pizza_margherita.jpg"
+    },
+    {
+        "ID de la Comida": 4,
+        "Nombre": "Croissant",
+        "Origen": "Francia",
+        "Ingredientes": [
+            "Harina",
+            "Mantequilla",
+            "Levadura",
+            "Leche",
+            "Azúcar",
+            "Sal"
+        ],
+        "Imagen": "https://example.com/images/croissant.jpg"
+    },
+    {
+        "ID de la Comida": 5,
+        "Nombre": "Pad Thai",
+        "Origen": "Tailandia",
+        "Ingredientes": [
+            "Fideos de arroz",
+            "Camarones o pollo",
+            "Huevo",
+            "Brotes de soya",
+            "Cacahuates",
+            "Cebollines",
+            "Salsa de tamarindo"
+        ],
+        "Imagen": "https://example.com/images/pad_thai.jpg"
+    },
+    {
+        "ID de la Comida": 6,
+        "Nombre": "Ceviche",
+        "Origen": "Perú",
+        "Ingredientes": [
+            "Pescado fresco",
+            "Jugo de limón",
+            "Cebolla roja",
+            "Ají",
+            "Cilantro",
+            "Sal"
+        ],
+        "Imagen": "https://example.com/images/ceviche.jpg"
+    },
+    {
+        "ID de la Comida": 7,
+        "Nombre": "Poutine",
+        "Origen": "Canadá",
+        "Ingredientes": ["Papas fritas", "Queso en grano", "Salsa gravy"],
+        "Imagen": "https://example.com/images/poutine.jpg"
+    },
+    {
+        "ID de la Comida": 8,
+        "Nombre": "Falafel",
+        "Origen": "Medio Oriente",
+        "Ingredientes": [
+            "Garbanzos",
+            "Cebolla",
+            "Ajo",
+            "Cilantro",
+            "Comino",
+            "Perejil"
+        ],
+        "Imagen": "https://example.com/images/falafel.jpg"
+    },
+    {
+        "ID de la Comida": 9,
+        "Nombre": "Paella",
+        "Origen": "España",
+        "Ingredientes": [
+            "Arroz",
+            "Mariscos",
+            "Pollo",
+            "Pimientos",
+            "Azafrán",
+            "Guisantes"
+        ],
+        "Imagen": "https://example.com/images/paella.jpg"
+    },
+    {
+        "ID de la Comida": 10,
+        "Nombre": "Empanadas",
+        "Origen": "Argentina",
+        "Ingredientes": [
+            "Masa para empanadas",
+            "Carne molida",
+            "Cebolla",
+            "Aceitunas",
+            "Huevo duro",
+            "Comino"
+        ],
+        "Imagen": "https://example.com/images/empanadas.jpg"
+    },
+    {
+        "ID de la Comida": 11,
+        "Nombre": "Biryani",
+        "Origen": "India",
+        "Ingredientes": [
+            "Arroz basmati",
+            "Pollo o cordero",
+            "Yogur",
+            "Cebolla",
+            "Especias",
+            "Azafrán"
+        ],
+        "Imagen": "https://example.com/images/biryani.jpg"
+    },
+    {
+        "ID de la Comida": 12,
+        "Nombre": "Hamburguesa",
+        "Origen": "Estados Unidos",
+        "Ingredientes": [
+            "Pan de hamburguesa",
+            "Carne de res",
+            "Lechuga",
+            "Tomate",
+            "Queso",
+            "Salsa de tomate",
+            "Mostaza"
+        ],
+        "Imagen": "https://example.com/images/hamburguesa.jpg"
+    },
+    {
+        "ID de la Comida": 13,
+        "Nombre": "Tom Yum",
+        "Origen": "Tailandia",
+        "Ingredientes": [
+            "Caldo",
+            "Langostinos",
+            "Jengibre",
+            "Limón",
+            "Setas",
+            "Salsa de pescado",
+            "Cilantro"
+        ],
+        "Imagen": "https://example.com/images/tom_yum.jpg"
+    },
+    {
+        "ID de la Comida": 14,
+        "Nombre": "Moussaka",
+        "Origen": "Grecia",
+        "Ingredientes": [
+            "Berenjena",
+            "Carne de cordero molida",
+            "Tomate",
+            "Cebolla",
+            "Ajo",
+            "Bechamel",
+            "Queso rallado"
+        ],
+        "Imagen": "https://example.com/images/moussaka.jpg"
+    },
+    {
+        "ID de la Comida": 15,
+        "Nombre": "Pho",
+        "Origen": "Vietnam",
+        "Ingredientes": [
+            "Caldo de carne",
+            "Fideos de arroz",
+            "Carne de res o pollo",
+            "Cilantro",
+            "Cebolla verde",
+            "Lima",
+            "Salsa de pescado"
+        ],
+        "Imagen": "https://example.com/images/pho.jpg"
+    },
+    {
+        "ID de la Comida": 16,
+        "Nombre": "Ratatouille",
+        "Origen": "Francia",
+        "Ingredientes": [
+            "Berenjena",
+            "Calabacín",
+            "Tomate",
+            "Pimiento",
+            "Cebolla",
+            "Aceite de oliva",
+            "Ajo"
+        ],
+        "Imagen": "https://example.com/images/ratatouille.jpg"
+    },
+    {
+        "ID de la Comida": 17,
+        "Nombre": "Kimchi",
+        "Origen": "Corea del Sur",
+        "Ingredientes": [
+            "Col china",
+            "Sal",
+            "Ajo",
+            "Jengibre",
+            "Pimiento rojo en polvo",
+            "Cebolla verde",
+            "Salsa de pescado"
+        ],
+        "Imagen": "https://example.com/images/kimchi.jpg"
+    },
+    {
+        "ID de la Comida": 18,
+        "Nombre": "Shakshuka",
+        "Origen": "Israel",
+        "Ingredientes": [
+            "Huevos",
+            "Tomate",
+            "Pimiento",
+            "Cebolla",
+            "Ajo",
+            "Especias"
+        ],
+        "Imagen": "https://example.com/images/shakshuka.jpg"
+    },
+    {
+        "ID de la Comida": 19,
+        "Nombre": "Churrasco",
+        "Origen": "Brasil",
+        "Ingredientes": ["Carne de res", "Sal gruesa"],
+        "Imagen": "https://example.com/images/churrasco.jpg"
+    },
+    {
+        "ID de la Comida": 20,
+        "Nombre": "Kebab",
+        "Origen": "Turquía",
+        "Ingredientes": [
+            "Carne de cordero",
+            "Pan pita",
+            "Lechuga",
+            "Tomate",
+            "Cebolla",
+            "Salsa de yogur"
+        ],
+        "Imagen": "https://example.com/images/kebab.jpg"
+    },
+    {
+        "ID de la Comida": 21,
+        "Nombre": "Laksa",
+        "Origen": "Malasia",
+        "Ingredientes": [
+            "Fideos de arroz",
+            "Caldo de coco",
+            "Langostinos",
+            "Brotes de soja",
+            "Hierbas frescas"
+        ],
+        "Imagen": "https://example.com/images/laksa.jpg"
+    },
+    {
+        "ID de la Comida": 22,
+        "Nombre": "Shawarma",
+        "Origen": "Medio Oriente",
+        "Ingredientes": [
+            "Carne de cordero o pollo",
+            "Pan pita",
+            "Pepino",
+            "Tomate",
+            "Cebolla",
+            "Salsa de ajo"
+        ],
+        "Imagen": "https://example.com/images/shawarma.jpg"
+    },
+    {
+        "ID de la Comida": 23,
+        "Nombre": "Bibimbap",
+        "Origen": "Corea del Sur",
+        "Ingredientes": [
+            "Arroz",
+            "Vegetales",
+            "Carne de res",
+            "Huevo",
+            "Salsa picante"
+        ],
+        "Imagen": "https://example.com/images/bibimbap.jpg"
+    },
+    {
+        "ID de la Comida": 24,
+        "Nombre": "Ramen",
+        "Origen": "Japón",
+        "Ingredientes": [
+            "Fideos de ramen",
+            "Caldo de cerdo o pollo",
+            "Huevos cocidos",
+            "Cebolla verde",
+            "Algas",
+            "Carne de cerdo"
+        ],
+        "Imagen": "https://example.com/images/ramen.jpg"
+    },
+    {
+        "ID de la Comida": 25,
+        "Nombre": "Tandoori Chicken",
+        "Origen": "India",
+        "Ingredientes": [
+            "Pollo",
+            "Yogur",
+            "Especias tandoori",
+            "Limón",
+            "Cebolla"
+        ],
+        "Imagen": "https://example.com/images/tandoori_chicken.jpg"
+    },
+    {
+        "ID de la Comida": 26,
+        "Nombre": "Fajitas",
+        "Origen": "México",
+        "Ingredientes": [
+            "Tortilla de harina",
+            "Carne de res o pollo",
+            "Pimiento",
+            "Cebolla",
+            "Especias"
+        ],
+        "Imagen": "https://example.com/images/fajitas.jpg"
+    },
+    {
+        "ID de la Comida": 27,
+        "Nombre": "Carbonara",
+        "Origen": "Italia",
+        "Ingredientes": [
+            "Espaguetis",
+            "Panceta",
+            "Huevo",
+            "Queso parmesano",
+            "Pimienta negra"
+        ],
+        "Imagen": "https://example.com/images/carbonara.jpg"
+    },
+    {
+        "ID de la Comida": 28,
+        "Nombre": "Baklava",
+        "Origen": "Turquía",
+        "Ingredientes": [
+            "Masa filo",
+            "Nueces",
+            "Miel",
+            "Canela",
+            "Mantequilla"
+        ],
+        "Imagen": "https://example.com/images/baklava.jpg"
+    },
+    {
+        "ID de la Comida": 29,
+        "Nombre": "Feijoada",
+        "Origen": "Brasil",
+        "Ingredientes": [
+            "Frijoles negros",
+            "Carne de cerdo",
+            "Arroz",
+            "Naranja",
+            "Col rizada"
+        ],
+        "Imagen": "https://example.com/images/feijoada.jpg"
+    },
+    {
+        "ID de la Comida": 30,
+        "Nombre": "Dolma",
+        "Origen": "Grecia",
+        "Ingredientes": [
+            "Hojas de parra",
+            "Arroz",
+            "Cebolla",
+            "Especias",
+            "Limón"
+        ],
+        "Imagen": "https://example.com/images/dolma.jpg"
+    },
+    {
+        "ID de la Comida": 31,
+        "Nombre": "Pho",
+        "Origen": "Vietnam",
+        "Ingredientes": [
+            "Caldo de res o pollo",
+            "Fideos de arroz",
+            "Carne de res en rodajas",
+            "Cebolla",
+            "Cilantro",
+            "Brotes de soja"
+        ],
+        "Imagen": "https://example.com/images/pho.jpg"
+    },
+    {
+        "ID de la Comida": 32,
+        "Nombre": "Moussaka",
+        "Origen": "Grecia",
+        "Ingredientes": [
+            "Berenjena",
+            "Carne de cordero o ternera",
+            "Tomate",
+            "Cebolla",
+            "Bechamel",
+            "Queso"
+        ],
+        "Imagen": "https://example.com/images/moussaka.jpg"
+    },
+    {
+        "ID de la Comida": 33,
+        "Nombre": "Croissant",
+        "Origen": "Francia",
+        "Ingredientes": [
+            "Harina",
+            "Mantequilla",
+            "Levadura",
+            "Azúcar",
+            "Sal",
+            "Huevos"
+        ],
+        "Imagen": "https://example.com/images/croissant.jpg"
+    },
+    {
+        "ID de la Comida": 34,
+        "Nombre": "Pierogi",
+        "Origen": "Polonia",
+        "Ingredientes": [
+            "Harina",
+            "Papas",
+            "Queso",
+            "Cebolla",
+            "Sal",
+            "Pimienta"
+        ],
+        "Imagen": "https://example.com/images/pierogi.jpg"
+    },
+    {
+        "ID de la Comida": 35,
+        "Nombre": "Empanada",
+        "Origen": "Argentina",
+        "Ingredientes": [
+            "Harina",
+            "Carne molida",
+            "Cebolla",
+            "Huevo duro",
+            "Aceitunas",
+            "Especias"
+        ],
+        "Imagen": "https://example.com/images/empanada.jpg"
+    },
+    {
+        "ID de la Comida": 36,
+        "Nombre": "Tagine",
+        "Origen": "Marruecos",
+        "Ingredientes": [
+            "Cordero o pollo",
+            "Ciruelas pasas",
+            "Almendras",
+            "Canela",
+            "Azafrán",
+            "Aceitunas"
+        ],
+        "Imagen": "https://example.com/images/tagine.jpg"
+    },
+    {
+        "ID de la Comida": 37,
+        "Nombre": "Dumplings",
+        "Origen": "China",
+        "Ingredientes": [
+            "Harina",
+            "Carne de cerdo o pollo",
+            "Repollo",
+            "Cebolla verde",
+            "Jengibre",
+            "Salsa de soja"
+        ],
+        "Imagen": "https://example.com/images/dumplings.jpg"
+    },
+    {
+        "ID de la Comida": 38,
+        "Nombre": "Arepas",
+        "Origen": "Venezuela",
+        "Ingredientes": [
+            "Harina de maíz",
+            "Agua",
+            "Sal",
+            "Queso",
+            "Carne desmechada"
+        ],
+        "Imagen": "https://example.com/images/arepas.jpg"
+    },
+    {
+        "ID de la Comida": 39,
+        "Nombre": "Roti",
+        "Origen": "India",
+        "Ingredientes": ["Harina de trigo", "Agua", "Sal", "Ghee"],
+        "Imagen": "https://example.com/images/roti.jpg"
+    },
+    {
+        "ID de la Comida": 40,
+        "Nombre": "Paella",
+        "Origen": "España",
+        "Ingredientes": [
+            "Arroz",
+            "Azafrán",
+            "Pollo",
+            "Mariscos",
+            "Pimiento",
+            "Guisantes"
+        ],
+        "Imagen": "https://example.com/images/paella.jpg"
+    },
+    {
+        "ID de la Comida": 41,
+        "Nombre": "Laksa",
+        "Origen": "Malasia",
+        "Ingredientes": [
+            "Fideos de arroz",
+            "Leche de coco",
+            "Pasta de curry",
+            "Camarones",
+            "Tofu",
+            "Cilantro"
+        ],
+        "Imagen": "https://example.com/images/laksa.jpg"
+    },
+    {
+        "ID de la Comida": 42,
+        "Nombre": "Kebab",
+        "Origen": "Turquía",
+        "Ingredientes": [
+            "Carne de cordero o pollo",
+            "Yogur",
+            "Pepino",
+            "Ajo",
+            "Pan pita",
+            "Lechuga"
+        ],
+        "Imagen": "https://example.com/images/kebab.jpg"
+    },
+    {
+        "ID de la Comida": 43,
+        "Nombre": "Bibimbap",
+        "Origen": "Corea del Sur",
+        "Ingredientes": [
+            "Arroz",
+            "Carne de res",
+            "Espinacas",
+            "Huevo frito",
+            "Zanahoria",
+            "Salsa Gochujang"
+        ],
+        "Imagen": "https://example.com/images/bibimbap.jpg"
+    },
+    {
+        "ID de la Comida": 44,
+        "Nombre": "Jollof Rice",
+        "Origen": "Nigeria",
+        "Ingredientes": [
+            "Arroz",
+            "Tomate",
+            "Cebolla",
+            "Pimientos",
+            "Pollo o pescado",
+            "Especias africanas"
+        ],
+        "Imagen": "https://example.com/images/jollof_rice.jpg"
+    },
+    {
+        "ID de la Comida": 45,
+        "Nombre": "Ceviche",
+        "Origen": "Perú",
+        "Ingredientes": [
+            "Pescado fresco",
+            "Limón",
+            "Cebolla morada",
+            "Ají",
+            "Cilantro",
+            "Maíz"
+        ],
+        "Imagen": "https://example.com/images/ceviche.jpg"
+    },
+    {
+        "ID de la Comida": 46,
+        "Nombre": "Okonomiyaki",
+        "Origen": "Japón",
+        "Ingredientes": [
+            "Harina",
+            "Huevo",
+            "Repollo",
+            "Panceta",
+            "Salsa okonomiyaki",
+            "Cebolla verde"
+        ],
+        "Imagen": "https://example.com/images/okonomiyaki.jpg"
+    },
+    {
+        "ID de la Comida": 47,
+        "Nombre": "Hummus",
+        "Origen": "Líbano",
+        "Ingredientes": [
+            "Garbanzos",
+            "Tahini",
+            "Ajo",
+            "Jugo de limón",
+            "Aceite de oliva",
+            "Sal"
+        ],
+        "Imagen": "https://example.com/images/hummus.jpg"
+    },
+    {
+        "ID de la Comida": 48,
+        "Nombre": "Shakshuka",
+        "Origen": "Túnez",
+        "Ingredientes": [
+            "Tomate",
+            "Pimiento",
+            "Ajo",
+            "Cebolla",
+            "Huevo",
+            "Especias"
+        ],
+        "Imagen": "https://example.com/images/shakshuka.jpg"
+    },
+    {
+        "ID de la Comida": 49,
+        "Nombre": "Tortilla Española",
+        "Origen": "España",
+        "Ingredientes": [
+            "Papas",
+            "Huevos",
+            "Cebolla",
+            "Aceite de oliva",
+            "Sal"
+        ],
+        "Imagen": "https://example.com/images/tortilla_espanola.jpg"
+    },
+    {
+        "ID de la Comida": 50,
+        "Nombre": "Pad Thai",
+        "Origen": "Tailandia",
+        "Ingredientes": [
+            "Fideos de arroz",
+            "Camarones o pollo",
+            "Brotes de soja",
+            "Maní",
+            "Cebolla verde",
+            "Salsa de tamarindo"
+        ],
+        "Imagen": "https://example.com/images/pad_thai.jpg"
+    }
+]

@@ -1,16 +1,13 @@
 import { Router } from "express";
-import { MovieController } from "../Controllers/Food.js";
+import { FoodController } from "../Controllers/Food.js";
 
-export const crearRouter = () => {
+export const crearRouter = ({ foodModel }) => {
+    console.log({ foodModel });
+
     const nuevoRouter = new Router();
-    const movieController = new MovieController();
+    const foodController = new FoodController({ foodModel: foodModel });
 
-    //nuevoRouter.get("/", homeController.Home);
-    nuevoRouter.get("/movies", movieController.General);
-    nuevoRouter.get("/movies/:id", movieController.Buscar);
-    nuevoRouter.post("/movies/", movieController.Agregar);
-    nuevoRouter.delete("/movies/:id", movieController.Borrar);
-    nuevoRouter.patch("/movies/", movieController.Actualizar);
+    nuevoRouter.get("/Foods", foodController.GetAll);
 
     return nuevoRouter;
 };

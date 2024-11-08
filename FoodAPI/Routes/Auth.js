@@ -16,7 +16,7 @@ export const AuthRouter = () => {
         "/auth/google/callback",
         passport.authenticate("google", { failureRedirect: "/" }),
         function (req, res) {
-            res.redirect("/movies");
+            res.redirect("/Foods");
         }
     );
 

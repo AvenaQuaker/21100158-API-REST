@@ -1,6 +1,6 @@
 [
     {
-        "ID de la Comida": 1,
+        "Key": 1,
         "Nombre": "Tacos al Pastor",
         "Origen": "México",
         "Ingredientes": [
@@ -11,10 +11,10 @@
             "Cebolla",
             "Salsa"
         ],
-        "Imagen": "https://example.com/images/tacos_al_pastor.jpg"
+        "Imagen": "https://www.gob.mx/cms/uploads/article/main_image/24866/tacos.jpg"
     },
     {
-        "ID de la Comida": 2,
+        "Key": 2,
         "Nombre": "Sushi",
         "Origen": "Japón",
         "Ingredientes": [
@@ -26,10 +26,10 @@
             "Salsa de soya",
             "Wasabi"
         ],
-        "Imagen": "https://example.com/images/sushi.jpg"
+        "Imagen": "https://img.chemie.de/Portal/News/65153ef4b049f_pL1ap2cjG.png?tr=w-1232,h-616,cm-extract,x-0,y-102:n-news_teaser"
     },
     {
-        "ID de la Comida": 3,
+        "Key": 3,
         "Nombre": "Pizza Margherita",
         "Origen": "Italia",
         "Ingredientes": [
@@ -39,10 +39,10 @@
             "Albahaca",
             "Aceite de oliva"
         ],
-        "Imagen": "https://example.com/images/pizza_margherita.jpg"
+        "Imagen": "https://pizzeriaciao.es/wp-content/uploads/2020/03/BLOG-RECETA-PIZZA-MARGARITA-MAR17-800x600-1.jpg"
     },
     {
-        "ID de la Comida": 4,
+        "Key": 4,
         "Nombre": "Croissant",
         "Origen": "Francia",
         "Ingredientes": [
@@ -53,10 +53,10 @@
             "Azúcar",
             "Sal"
         ],
-        "Imagen": "https://example.com/images/croissant.jpg"
+        "Imagen": "https://img.freepik.com/foto-gratis/vista-deliciosas-comidas-todo-mundo_23-2151596552.jpg"
     },
     {
-        "ID de la Comida": 5,
+        "Key": 5,
         "Nombre": "Pad Thai",
         "Origen": "Tailandia",
         "Ingredientes": [
@@ -68,10 +68,10 @@
             "Cebollines",
             "Salsa de tamarindo"
         ],
-        "Imagen": "https://example.com/images/pad_thai.jpg"
+        "Imagen": "https://www.noracooks.com/wp-content/uploads/2023/01/30MinuteVeganPadThai-5-2.jpg"
     },
     {
-        "ID de la Comida": 6,
+        "Key": 6,
         "Nombre": "Ceviche",
         "Origen": "Perú",
         "Ingredientes": [
@@ -82,17 +82,17 @@
             "Cilantro",
             "Sal"
         ],
-        "Imagen": "https://example.com/images/ceviche.jpg"
+        "Imagen": "https://imgmedia.larepublica.pe/640x371/larepublica/original/2023/06/27/649b71cfecd21e522250dd65.webp"
     },
     {
-        "ID de la Comida": 7,
+        "Key": 7,
         "Nombre": "Poutine",
         "Origen": "Canadá",
         "Ingredientes": ["Papas fritas", "Queso en grano", "Salsa gravy"],
-        "Imagen": "https://example.com/images/poutine.jpg"
+        "Imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/6f/88/0f/yum.jpg"
     },
     {
-        "ID de la Comida": 8,
+        "Key": 8,
         "Nombre": "Falafel",
         "Origen": "Medio Oriente",
         "Ingredientes": [
@@ -103,10 +103,10 @@
             "Comino",
             "Perejil"
         ],
-        "Imagen": "https://example.com/images/falafel.jpg"
+        "Imagen": "https://www.aceitesdeolivadeespana.com/wp-content/uploads/2021/01/receta-falafel.jpg"
     },
     {
-        "ID de la Comida": 9,
+        "Key": 9,
         "Nombre": "Paella",
         "Origen": "España",
         "Ingredientes": [
@@ -117,10 +117,10 @@
             "Azafrán",
             "Guisantes"
         ],
-        "Imagen": "https://example.com/images/paella.jpg"
+        "Imagen": "https://www.allrecipes.com/thmb/PdwNPwZiNXr9cw8W6WQacCl6i98=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/84137-easy-paella-DDMFS-4x3-08712e61e7dc453d94673f65f9eca7d2.jpg"
     },
     {
-        "ID de la Comida": 10,
+        "Key": 10,
         "Nombre": "Empanadas",
         "Origen": "Argentina",
         "Ingredientes": [
@@ -131,10 +131,10 @@
             "Huevo duro",
             "Comino"
         ],
-        "Imagen": "https://example.com/images/empanadas.jpg"
+        "Imagen": "https://www.clarin.com/2022/05/23/9ZSfzT2wz_2000x1500__1.jpg"
     },
     {
-        "ID de la Comida": 11,
+        "Key": 11,
         "Nombre": "Biryani",
         "Origen": "India",
         "Ingredientes": [
@@ -145,10 +145,10 @@
             "Especias",
             "Azafrán"
         ],
-        "Imagen": "https://example.com/images/biryani.jpg"
+        "Imagen": "https://www.thespruceeats.com/thmb/XDBL9gA6A6nYWUdsRZ3QwH084rk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-chicken-biryani-recipe-7367850-hero-A-ed211926bb0e4ca1be510695c15ce111.jpg"
     },
     {
-        "ID de la Comida": 12,
+        "Key": 12,
         "Nombre": "Hamburguesa",
         "Origen": "Estados Unidos",
         "Ingredientes": [
@@ -160,10 +160,10 @@
             "Salsa de tomate",
             "Mostaza"
         ],
-        "Imagen": "https://example.com/images/hamburguesa.jpg"
+        "Imagen": "https://www.tqma.com.ec/images/com_yoorecipe/banner_superior/18231_1.jpg"
     },
     {
-        "ID de la Comida": 13,
+        "Key": 13,
         "Nombre": "Tom Yum",
         "Origen": "Tailandia",
         "Ingredientes": [
@@ -175,10 +175,10 @@
             "Salsa de pescado",
             "Cilantro"
         ],
-        "Imagen": "https://example.com/images/tom_yum.jpg"
+        "Imagen": "https://i0.wp.com/alejandrozurdo.com/wp-content/uploads/2020/05/DSC08716.jpgs"
     },
     {
-        "ID de la Comida": 14,
+        "Key": 14,
         "Nombre": "Moussaka",
         "Origen": "Grecia",
         "Ingredientes": [
@@ -190,10 +190,10 @@
             "Bechamel",
             "Queso rallado"
         ],
-        "Imagen": "https://example.com/images/moussaka.jpg"
+        "Imagen": "https://www.pucheromix.com/wp-content/uploads/2024/04/mousaka.jpg"
     },
     {
-        "ID de la Comida": 15,
+        "Key": 15,
         "Nombre": "Pho",
         "Origen": "Vietnam",
         "Ingredientes": [
@@ -205,10 +205,10 @@
             "Lima",
             "Salsa de pescado"
         ],
-        "Imagen": "https://example.com/images/pho.jpg"
+        "Imagen": "https://www.simplyrecipes.com/thmb/6NSfqz9vDog4Ct97ZKaEeG5ByFs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__04__Beef-Pho-LEAD-2-afc6b6a9144947fb9d72070d7ea8c95c.jpg"
     },
     {
-        "ID de la Comida": 16,
+        "Key": 16,
         "Nombre": "Ratatouille",
         "Origen": "Francia",
         "Ingredientes": [
@@ -220,10 +220,10 @@
             "Aceite de oliva",
             "Ajo"
         ],
-        "Imagen": "https://example.com/images/ratatouille.jpg"
+        "Imagen": "https://www.recetas-francesas.com/base/stock/Post/18-image-francia-18/18-image-francia-18_web.jpg"
     },
     {
-        "ID de la Comida": 17,
+        "Key": 17,
         "Nombre": "Kimchi",
         "Origen": "Corea del Sur",
         "Ingredientes": [
@@ -235,10 +235,10 @@
             "Cebolla verde",
             "Salsa de pescado"
         ],
-        "Imagen": "https://example.com/images/kimchi.jpg"
+        "Imagen": "https://www.mediafire.com/convkey/490a/tt7jmdl8npe2m686g.jpg"
     },
     {
-        "ID de la Comida": 18,
+        "Key": 18,
         "Nombre": "Shakshuka",
         "Origen": "Israel",
         "Ingredientes": [
@@ -249,17 +249,17 @@
             "Ajo",
             "Especias"
         ],
-        "Imagen": "https://example.com/images/shakshuka.jpg"
+        "Imagen": "https://saltedmint.com/wp-content/uploads/2024/02/Shakshuka-Eggs-2.jpg"
     },
     {
-        "ID de la Comida": 19,
+        "Key": 19,
         "Nombre": "Churrasco",
         "Origen": "Brasil",
         "Ingredientes": ["Carne de res", "Sal gruesa"],
-        "Imagen": "https://example.com/images/churrasco.jpg"
+        "Imagen": "https://carniceriaangel.com/wp-content/uploads/2023/02/recetas-churrasco.jpeg"
     },
     {
-        "ID de la Comida": 20,
+        "Key": 20,
         "Nombre": "Kebab",
         "Origen": "Turquía",
         "Ingredientes": [
@@ -270,10 +270,10 @@
             "Cebolla",
             "Salsa de yogur"
         ],
-        "Imagen": "https://example.com/images/kebab.jpg"
+        "Imagen": "https://www.gourmetkebab.es/wp-content/uploads/2023/12/ingredientes-del-kebab.jpg"
     },
     {
-        "ID de la Comida": 21,
+        "Key": 21,
         "Nombre": "Laksa",
         "Origen": "Malasia",
         "Ingredientes": [
@@ -283,10 +283,10 @@
             "Brotes de soja",
             "Hierbas frescas"
         ],
-        "Imagen": "https://example.com/images/laksa.jpg"
+        "Imagen": "https://images.services.kitchenstories.io/R9yHWmZq6ghMd9OD6kqRUUqymQY=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/R2416-photo-final-1.jpg"
     },
     {
-        "ID de la Comida": 22,
+        "Key": 22,
         "Nombre": "Shawarma",
         "Origen": "Medio Oriente",
         "Ingredientes": [
@@ -297,10 +297,10 @@
             "Cebolla",
             "Salsa de ajo"
         ],
-        "Imagen": "https://example.com/images/shawarma.jpg"
+        "Imagen": "https://www.clarin.com/2022/08/03/iNUX_2Ut1_1200x0__1.jpg"
     },
     {
-        "ID de la Comida": 23,
+        "Key": 23,
         "Nombre": "Bibimbap",
         "Origen": "Corea del Sur",
         "Ingredientes": [
@@ -310,10 +310,10 @@
             "Huevo",
             "Salsa picante"
         ],
-        "Imagen": "https://example.com/images/bibimbap.jpg"
+        "Imagen": "https://foodit.lanacion.com.ar/resizer/v2/bibimbap-3WIPGELALFASPN3S3TCESOA6GE.jpg?auth=b2a33d738422e00f4c413e0aba8cdede56261782c415a31536b32df64957b171&width=880&height=586&quality=70&smart=true"
     },
     {
-        "ID de la Comida": 24,
+        "Key": 24,
         "Nombre": "Ramen",
         "Origen": "Japón",
         "Ingredientes": [
@@ -324,10 +324,10 @@
             "Algas",
             "Carne de cerdo"
         ],
-        "Imagen": "https://example.com/images/ramen.jpg"
+        "Imagen": "https://editorialtelevisa.brightspotcdn.com/dims4/default/8a6da23/2147483647/strip/true/crop/1024x1024+0+0/resize/2000x2000!/format/webp/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fde%2F7e%2F6af1310a431aa94aadffa0cb8762%2Framen.jpg"
     },
     {
-        "ID de la Comida": 25,
+        "Key": 25,
         "Nombre": "Tandoori Chicken",
         "Origen": "India",
         "Ingredientes": [
@@ -337,10 +337,10 @@
             "Limón",
             "Cebolla"
         ],
-        "Imagen": "https://example.com/images/tandoori_chicken.jpg"
+        "Imagen": "https://www.teaforturmeric.com/wp-content/uploads/2024/08/Tandoori-Chicken-30-1024x1536.jpg"
     },
     {
-        "ID de la Comida": 26,
+        "Key": 26,
         "Nombre": "Fajitas",
         "Origen": "México",
         "Ingredientes": [
@@ -350,10 +350,10 @@
             "Cebolla",
             "Especias"
         ],
-        "Imagen": "https://example.com/images/fajitas.jpg"
+        "Imagen": "https://w6h5a5r4.rocketcdn.me/wp-content/uploads/2019/06/fajitas-de-pollo-1080x671.jpg"
     },
     {
-        "ID de la Comida": 27,
+        "Key": 27,
         "Nombre": "Carbonara",
         "Origen": "Italia",
         "Ingredientes": [
@@ -363,10 +363,10 @@
             "Queso parmesano",
             "Pimienta negra"
         ],
-        "Imagen": "https://example.com/images/carbonara.jpg"
+        "Imagen": "https://www.allrecipes.com/thmb/Vg2cRidr2zcYhWGvPD8M18xM_WY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg"
     },
     {
-        "ID de la Comida": 28,
+        "Key": 28,
         "Nombre": "Baklava",
         "Origen": "Turquía",
         "Ingredientes": [
@@ -376,10 +376,10 @@
             "Canela",
             "Mantequilla"
         ],
-        "Imagen": "https://example.com/images/baklava.jpg"
+        "Imagen": "https://www.sherry.wine/media/images/bakavla.width-876.png"
     },
     {
-        "ID de la Comida": 29,
+        "Key": 29,
         "Nombre": "Feijoada",
         "Origen": "Brasil",
         "Ingredientes": [
@@ -389,10 +389,10 @@
             "Naranja",
             "Col rizada"
         ],
-        "Imagen": "https://example.com/images/feijoada.jpg"
+        "Imagen": "https://www.goya.com/media/3642/feijoada-brazilian-meat-and-bean-stew.jpg?quality=80"
     },
     {
-        "ID de la Comida": 30,
+        "Key": 30,
         "Nombre": "Dolma",
         "Origen": "Grecia",
         "Ingredientes": [
@@ -402,52 +402,10 @@
             "Especias",
             "Limón"
         ],
-        "Imagen": "https://example.com/images/dolma.jpg"
+        "Imagen": "https://www.originem.online/wp-content/uploads/2021/11/dolma-armenia-e1579218514772.jpg"
     },
     {
-        "ID de la Comida": 31,
-        "Nombre": "Pho",
-        "Origen": "Vietnam",
-        "Ingredientes": [
-            "Caldo de res o pollo",
-            "Fideos de arroz",
-            "Carne de res en rodajas",
-            "Cebolla",
-            "Cilantro",
-            "Brotes de soja"
-        ],
-        "Imagen": "https://example.com/images/pho.jpg"
-    },
-    {
-        "ID de la Comida": 32,
-        "Nombre": "Moussaka",
-        "Origen": "Grecia",
-        "Ingredientes": [
-            "Berenjena",
-            "Carne de cordero o ternera",
-            "Tomate",
-            "Cebolla",
-            "Bechamel",
-            "Queso"
-        ],
-        "Imagen": "https://example.com/images/moussaka.jpg"
-    },
-    {
-        "ID de la Comida": 33,
-        "Nombre": "Croissant",
-        "Origen": "Francia",
-        "Ingredientes": [
-            "Harina",
-            "Mantequilla",
-            "Levadura",
-            "Azúcar",
-            "Sal",
-            "Huevos"
-        ],
-        "Imagen": "https://example.com/images/croissant.jpg"
-    },
-    {
-        "ID de la Comida": 34,
+        "Key": 31,
         "Nombre": "Pierogi",
         "Origen": "Polonia",
         "Ingredientes": [
@@ -458,24 +416,10 @@
             "Sal",
             "Pimienta"
         ],
-        "Imagen": "https://example.com/images/pierogi.jpg"
+        "Imagen": "https://i.blogs.es/b563ef/pierogi-ruskie/1024_2000.jpg"
     },
     {
-        "ID de la Comida": 35,
-        "Nombre": "Empanada",
-        "Origen": "Argentina",
-        "Ingredientes": [
-            "Harina",
-            "Carne molida",
-            "Cebolla",
-            "Huevo duro",
-            "Aceitunas",
-            "Especias"
-        ],
-        "Imagen": "https://example.com/images/empanada.jpg"
-    },
-    {
-        "ID de la Comida": 36,
+        "Key": 32,
         "Nombre": "Tagine",
         "Origen": "Marruecos",
         "Ingredientes": [
@@ -486,10 +430,10 @@
             "Azafrán",
             "Aceitunas"
         ],
-        "Imagen": "https://example.com/images/tagine.jpg"
+        "Imagen": "https://www.lecreuset.mx/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-mx-master/default/dw8689ff89/images/cat-specialty/24147193746_3.jpg?sw=650&sh=650&sm=fit"
     },
     {
-        "ID de la Comida": 37,
+        "Key": 33,
         "Nombre": "Dumplings",
         "Origen": "China",
         "Ingredientes": [
@@ -500,10 +444,10 @@
             "Jengibre",
             "Salsa de soja"
         ],
-        "Imagen": "https://example.com/images/dumplings.jpg"
+        "Imagen": "https://tb-static.uber.com/prod/image-proc/processed_images/15af503eb6ef5409886c3e86b5819a11/c73ecc27d2a9eaa735b1ee95304ba588.jpeg"
     },
     {
-        "ID de la Comida": 38,
+        "Key": 34,
         "Nombre": "Arepas",
         "Origen": "Venezuela",
         "Ingredientes": [
@@ -516,70 +460,14 @@
         "Imagen": "https://example.com/images/arepas.jpg"
     },
     {
-        "ID de la Comida": 39,
+        "Key": 35,
         "Nombre": "Roti",
         "Origen": "India",
         "Ingredientes": ["Harina de trigo", "Agua", "Sal", "Ghee"],
         "Imagen": "https://example.com/images/roti.jpg"
     },
     {
-        "ID de la Comida": 40,
-        "Nombre": "Paella",
-        "Origen": "España",
-        "Ingredientes": [
-            "Arroz",
-            "Azafrán",
-            "Pollo",
-            "Mariscos",
-            "Pimiento",
-            "Guisantes"
-        ],
-        "Imagen": "https://example.com/images/paella.jpg"
-    },
-    {
-        "ID de la Comida": 41,
-        "Nombre": "Laksa",
-        "Origen": "Malasia",
-        "Ingredientes": [
-            "Fideos de arroz",
-            "Leche de coco",
-            "Pasta de curry",
-            "Camarones",
-            "Tofu",
-            "Cilantro"
-        ],
-        "Imagen": "https://example.com/images/laksa.jpg"
-    },
-    {
-        "ID de la Comida": 42,
-        "Nombre": "Kebab",
-        "Origen": "Turquía",
-        "Ingredientes": [
-            "Carne de cordero o pollo",
-            "Yogur",
-            "Pepino",
-            "Ajo",
-            "Pan pita",
-            "Lechuga"
-        ],
-        "Imagen": "https://example.com/images/kebab.jpg"
-    },
-    {
-        "ID de la Comida": 43,
-        "Nombre": "Bibimbap",
-        "Origen": "Corea del Sur",
-        "Ingredientes": [
-            "Arroz",
-            "Carne de res",
-            "Espinacas",
-            "Huevo frito",
-            "Zanahoria",
-            "Salsa Gochujang"
-        ],
-        "Imagen": "https://example.com/images/bibimbap.jpg"
-    },
-    {
-        "ID de la Comida": 44,
+        "Key": 36,
         "Nombre": "Jollof Rice",
         "Origen": "Nigeria",
         "Ingredientes": [
@@ -593,21 +481,7 @@
         "Imagen": "https://example.com/images/jollof_rice.jpg"
     },
     {
-        "ID de la Comida": 45,
-        "Nombre": "Ceviche",
-        "Origen": "Perú",
-        "Ingredientes": [
-            "Pescado fresco",
-            "Limón",
-            "Cebolla morada",
-            "Ají",
-            "Cilantro",
-            "Maíz"
-        ],
-        "Imagen": "https://example.com/images/ceviche.jpg"
-    },
-    {
-        "ID de la Comida": 46,
+        "Key": 37,
         "Nombre": "Okonomiyaki",
         "Origen": "Japón",
         "Ingredientes": [
@@ -621,7 +495,7 @@
         "Imagen": "https://example.com/images/okonomiyaki.jpg"
     },
     {
-        "ID de la Comida": 47,
+        "Key": 38,
         "Nombre": "Hummus",
         "Origen": "Líbano",
         "Ingredientes": [
@@ -635,7 +509,7 @@
         "Imagen": "https://example.com/images/hummus.jpg"
     },
     {
-        "ID de la Comida": 48,
+        "Key": 39,
         "Nombre": "Shakshuka",
         "Origen": "Túnez",
         "Ingredientes": [
@@ -649,7 +523,7 @@
         "Imagen": "https://example.com/images/shakshuka.jpg"
     },
     {
-        "ID de la Comida": 49,
+        "Key": 40,
         "Nombre": "Tortilla Española",
         "Origen": "España",
         "Ingredientes": [
@@ -660,19 +534,5 @@
             "Sal"
         ],
         "Imagen": "https://example.com/images/tortilla_espanola.jpg"
-    },
-    {
-        "ID de la Comida": 50,
-        "Nombre": "Pad Thai",
-        "Origen": "Tailandia",
-        "Ingredientes": [
-            "Fideos de arroz",
-            "Camarones o pollo",
-            "Brotes de soja",
-            "Maní",
-            "Cebolla verde",
-            "Salsa de tamarindo"
-        ],
-        "Imagen": "https://example.com/images/pad_thai.jpg"
     }
 ]

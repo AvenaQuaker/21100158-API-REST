@@ -9,6 +9,7 @@ import { ensureAuthenticated } from "./Middlewares/ensureAuth.js";
 import { crearRouter } from "./Routes/Routes.js";
 import { AuthRouter } from "./Routes/Auth.js";
 import { miCors } from "./Middlewares/Cors.js";
+import { FoodModel } from "./Models/Food.js";
 
 // Certificados SSL
 const PKey = fs.readFileSync("./Parcial2/HTTPS + OAuth2/HTTPS/key.pem", "utf8");
@@ -61,7 +62,7 @@ passport.deserializeUser((user, done) => {
 app.use(AuthRouter());
 
 // Rutas principales
-app.use(ensureAuthenticated, crearRouter());
+app.use(ensureAuthenticated, crearRouter({ foodModel: FoodModel }));
 
 //Servidor HTTPS
 const httpsServer = https.createServer(credentials, app);

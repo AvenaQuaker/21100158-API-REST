@@ -1,5 +1,10 @@
-function areaCuadrado(lado) {
+function areaCuadrado() {
+    const lado = obtenerLado();
     return lado * lado;
 }
 
-module.exports = areaCuadrado;
+function obtenerLado() {
+    return 4;
+}
+
+module.exports = { obtenerLado, areaCuadrado };

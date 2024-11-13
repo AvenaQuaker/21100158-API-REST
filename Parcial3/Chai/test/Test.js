@@ -1,6 +1,7 @@
 import { areaCuadrado } from "../src/Modulo.js";
 import test from "node:test";
-import * as chai from "chai";
+import chai from "chai";
+import chaihttp from "chai-http";
 
 test("Igual que el Correcto", () => {
     let area = areaCuadrado(5);

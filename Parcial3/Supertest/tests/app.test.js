@@ -1,5 +1,5 @@
-import request from "supertest";
-import app from "./app"; // Asegúrate de que la ruta del archivo sea correcta
+const request = require("supertest");
+const app = require("../app.js");
 
 describe("GET /api/test", () => {
     it("should return a message", async () => {

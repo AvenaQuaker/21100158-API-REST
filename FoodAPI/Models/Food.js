@@ -1,27 +1,55 @@
-import Foods from "../Food.json" with { type: "json"};
+import { randomInt } from "crypto";
+import Dish from "../Models/Dishes.js";
 
 export class FoodModel {
     static async getFoods() {
-        return Foods;
+        try {
+            const dishes = await Dish.find();
+            return dishes;
+        } catch (err) {
+            return { message: err.message };
+        }
     }
 
     static async getFood(Key) {
-        let KeyINT = parseInt(Key)
-        const food = Foods.find(food => food.Key === KeyINT);
-        return food;
+        try {
+            const dish = await Dish.find({ Key: Key });
+            return dish;
+        } catch (err) {
+            return { message: err.message };
+        }
     }
 
-    static async createFood({ food } ) {
-        console.log(food);
-        let nuevoID = 1;
-        Foods.forEach((food)=>{nuevoID++;})
+    static async createFood({ food }) {
+        const dishes = await Dish.find();
+        const KeyINT = dishes.length + 1;
 
-        const newDish = {
-            Key: nuevoID,
-            ...food,
-        }
+        const dish = {
+            Key: KeyINT,
+            Nombre: food.Nombre,
+            Origen: food.Origen,
+            Ingredientes: food.Ingredientes,
+            Imagen: food.Imagen,
+        };
 
-        Foods.push(newDish);
-        return newDish;
+        const result = await Dish.insertMany(dish);
+        return result;
+    }
+
+    static async updateFood({ food }) {
+        const dish = {
+            Nombre: food.Nombre,
+            Origen: food.Origen,
+            Ingredientes: food.Ingredientes,
+            Imagen: food.Imagen,
+        };
+
+        const result = await Dish.updateOne({ Key: food.Key }, { $set: dish });
+        return result;
+    }
+
+    static async deleteFood(Key) {
+        const result = await Dish.deleteOne({ Key: Key });
+        return result;
     }
 }

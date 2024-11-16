@@ -9,6 +9,8 @@ export const crearRouter = ({ foodModel }) => {
     nuevoRouter.get("/Foods", foodController.GetAll);
     nuevoRouter.get("/Foods/:key", foodController.GetFood);
     nuevoRouter.post("/Foods", foodController.CreateFood);
+    nuevoRouter.patch("/Foods", foodController.UpdateFood);
+    nuevoRouter.delete("/Foods/:key", foodController.DeleteFood);
 
     return nuevoRouter;
 };

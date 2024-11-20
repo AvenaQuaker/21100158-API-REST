@@ -5,45 +5,69 @@ export class FoodController {
         this.foodModel = foodModel;
     }
 
-    Home = async (req, res) => {
-        res.status(200).json({ Message: "Pagina Principal" });
-    };
-
     GetAll = async (req, res) => {
         const dishes = await this.foodModel.getFoods();
         res.status(200).json(dishes);
     };
 
     GetFood = async (req, res) => {
-        const { key } = req.params;
-        const dish = await this.foodModel.getFood(key);
-        res.status(200).json(dish);
+        try {
+            const { key } = req.params;
+            const result = await this.foodModel.getFood(key);
+
+            if (result.success) {
+                res.status(200).json(result);
+            } else {
+                res.status(404).json(result);
+            }
+        } catch (err) {
+            res.status(500).json(err);
+        }
     };
 
     CreateFood = async (req, res) => {
-        let Resultado = validateFood(req.body);
+        try {
+            const result = validateFood(req.body);
 
-        if (Resultado.error) {
-            res.status(400).json(Resultado.error);
-            return;
-        } else {
-            const dish = await this.foodModel.createFood({ food: req.body });
-            res.status(201).json(dish);
+            if (!result.error) {
+                const dish = await this.foodModel.createFood({
+                    food: req.body,
+                });
+                res.status(201).json(dish);
+            } else {
+                res.status(400).json(result.error);
+            }
+        } catch (err) {
+            res.status(500).json(err);
         }
     };
 
     UpdateFood = async (req, res) => {
         try {
-            const dish = await this.foodModel.updateFood({ food: req.body });
-            res.status(200).json(dish);
+            const result = await this.foodModel.updateFood({ food: req.body });
+
+            if (result.success) {
+                res.status(200).json(result);
+            } else {
+                res.status(404).json(result);
+            }
         } catch (err) {
             res.status(500).json(err);
         }
     };
 
     DeleteFood = async (req, res) => {
-        const { key } = req.params;
-        const dish = await this.foodModel.deleteFood(key);
-        res.status(200).json(dish);
+        try {
+            const { key } = req.params;
+            const result = await this.foodModel.deleteFood(key);
+
+            if (result.success) {
+                res.status(200).json(result);
+            } else {
+                res.status(404).json(result);
+            }
+        } catch (err) {
+            res.status(500).json(err);
+        }
     };
 }

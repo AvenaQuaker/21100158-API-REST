@@ -1,4 +1,3 @@
-import { randomInt } from "crypto";
 import Dish from "../Models/Dishes.js";
 
 export class FoodModel {
@@ -12,11 +11,15 @@ export class FoodModel {
     }
 
     static async getFood(Key) {
-        try {
-            const dish = await Dish.find({ Key: Key });
-            return dish;
-        } catch (err) {
-            return { message: err.message };
+        const dish = await Dish.find({ Key: Key });
+
+        if (dish.length === 0) {
+            return {
+                success: false,
+                message: "No he se ha encontrado nada",
+            };
+        } else {
+            return { success: true, Dish: dish };
         }
     }
 
@@ -33,10 +36,12 @@ export class FoodModel {
         };
 
         const result = await Dish.insertMany(dish);
-        return result;
+        return { Dish: dish, resultado: result };
     }
 
     static async updateFood({ food }) {
+        const oldDish = await Dish.find({ Key: food.Key });
+
         const dish = {
             Nombre: food.Nombre,
             Origen: food.Origen,
@@ -44,12 +49,31 @@ export class FoodModel {
             Imagen: food.Imagen,
         };
 
-        const result = await Dish.updateOne({ Key: food.Key }, { $set: dish });
-        return result;
+        if (oldDish.length === 0) {
+            return {
+                success: false,
+                message: "No se ha encontrado el platillo deseado",
+            };
+        } else {
+            const result = await Dish.updateOne(
+                { Key: food.Key },
+                { $set: dish }
+            );
+            return { success: true, newDish: dish, resultado: result };
+        }
     }
 
     static async deleteFood(Key) {
-        const result = await Dish.deleteOne({ Key: Key });
-        return result;
+        const dish = await Dish.find({ Key: Key });
+
+        if (dish.length === 0) {
+            return {
+                success: false,
+                message: "No se ha encontrado el platillo deseado",
+            };
+        } else {
+            const result = await Dish.deleteOne({ Key: Key });
+            return { success: true, Dish: dish, resultado: result };
+        }
     }
 }

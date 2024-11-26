@@ -1,6 +1,5 @@
 //Importes
 import express from "express";
-import path from "path";
 import { miCors } from "./Middlewares/Cors.js";
 import { crearRouter } from "./Routes/Routes.js";
 import swaggerJSDoc from "swagger-jsdoc";
@@ -13,6 +12,7 @@ app.use(miCors());
 //Swagger
 const swaggerOptions = {
     swaggerDefinition: {
+        openapi: "3.0.0",
         info: {
             title: "Dishes-API Documentation",
             description: "API REST for Gastronomy purposes",
@@ -26,6 +26,7 @@ const swaggerOptions = {
                 url: "https://jsonplaceholder.typicode.com",
             },
         },
+        components: {},
         servers: [
             {
                 url: "http://localhost:1234",
@@ -37,11 +38,16 @@ const swaggerOptions = {
 };
 
 //Rutas;
-app.use("/Home", crearRouter());
+app.use("/", crearRouter());
 
 //Consumir Documentacion
 const swaggerDocs = swaggerJSDoc(swaggerOptions);
 app.use("/Doc", swaggerUI.serve, swaggerUI.setup(swaggerDocs));
+
+//Obtener el objeto de Swagger
+app.get("/Spec", (req, res) => {
+    res.json(swaggerDocs);
+});
 
 const PORT = process.env.PORT ?? 1234;
 
